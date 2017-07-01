@@ -1,4 +1,20 @@
-﻿<!DOCTYPE html>
+<!-- // Item -->
+<!-- $item_name_short = Alchemists -->
+<!-- $item_foldername = alchemists -->
+<!-- $item_name_full  = Alchemists - Sports Club and News WordPress Theme -->
+<!-- $item_type       = theme -->
+<!-- $item_zip        = alchemists.zip -->
+
+<!-- // Links -->
+<!-- $link_instagram = https://www.instagram.com/dan.fisher.dev/ -->
+<!-- $link_twitter   = https://twitter.com/danfisher_dev -->
+<!-- $link_subscribe = http://eepurl.com/cqgINX -->
+<!-- $link_support   = https://danfisher.ticksy.com -->
+
+<!-- // Author -->
+<!-- $author_email   = dan.fisher.dev@gmail.com -->
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -15,9 +31,9 @@
 	<header class="vl-header">
 		<div class="container">
 			<h1 class="vl-header--title">
-				<img class="vl-header--icon" src="img/template/vlthemes.png">Quick <strong>Start</strong>
+				<img class="vl-header--icon" src="img/template/df-logo.svg"><strong> <!-- $item_name_short --> Documentation</strong>
 			</h1>
-			<p class="vl-header--subtitle"><img src="img/template/clock-circular-outline.png">Last updated: Feb 12th, 2017</p>
+			<p class="vl-header--subtitle"><img src="img/template/clock-circular-outline.png">Last updated: June 30th, 2017</p>
 		</div>
 	</header>
 	<!-- end .vl-header -->
@@ -41,8 +57,7 @@
 									<ul class="sub-menu">
 										<li><a href="#intalling-required-plugins">Installing Required Plugins</a></li>
 										<li><a href="#importing-demo-data">Import Demo Data</a></li>
-										<li><a href="#how-to-set-up-menus">How To Set Up Menus</a></li>
-										<li><a href="#how-to-set-up-homepage">How To Set Up "Home Page"</a></li>
+										<li><a href="#permalinks-structure">Permalinks Structure</a></li>
 									</ul>
 								</li>
 								<li><a href="#how-to-update-theme">How To Update Theme</a></li>
@@ -71,23 +86,23 @@
 						<h2 class="vl-section--title">Welcome</h2>
 						<div class="vl-section--content">
 
-							<a target="_blank" href="https://www.instagram.com/vlthemes/" class="vl-btn vl-btn--instagram"><img src="img/template/instagram-symbol.png" alt="">Follow Us</a>
+							<a target="_blank" href="<!-- $link_instagram -->" class="vl-btn vl-btn--instagram"><img src="img/template/instagram-symbol.png" alt="">Follow Us</a>
 
-							<a target="_blank" href="https://twitter.com/vlthemes" class="vl-btn vl-btn--twitter"><img src="img/template/twitter.png" alt="">Follow Us</a>
+							<a target="_blank" href="<!-- $link_twitter -->" class="vl-btn vl-btn--twitter"><img src="img/template/twitter.png" alt="">Follow Us</a>
 
-							<a target="_blank" href="http://eepurl.com/cAIc41" class="vl-btn vl-btn--subscribe"><img src="img/template/e-mail-envelope.png" alt="">Subscribe Us</a>
+							<a target="_blank" href="<!-- $link_subscribe -->" class="vl-btn vl-btn--subscribe"><img src="img/template/e-mail-envelope.png" alt="">Subscribe Us</a>
 
-							<a target="_blank" href="http://vlthemes.ticksy.com" class="vl-btn"><img src="img/template/help.png" alt="">Get Help</a>
+							<a target="_blank" href="<!-- $link_support -->" class="vl-btn"><img src="img/template/help.png" alt="">Get Help</a>
 
 							<p></p>
 
 
-							<p>Thank you very much for purchasing my template. We've put a lot of hard work into it, and we hope you love it as much as we do. As far as the documentation is concerned, we have tried to cover as much as possible to help you get your new template up and running and to help you customise it.</p>
+							<p>Thank you very much for purchasing our <!-- $item_type -->. We've put a lot of hard work into it, and we hope you love it as much as we do. As far as the documentation is concerned, we have tried to cover as much as possible to help you get your new <!-- $item_type --> up and running and to help you customise it.</p>
 
-							<p>If you have any questions or problems that aren't answered here, please feel free to <a href="mailto:plafon89@gmail.com">email us</a></p>
-							
-							<p>We love to hear your feedback - if you find any bugs or have suggestions for improvements please get in touch. Nearly all of the time we follow your advice and issue a rapid update to Paragon.</p>
-							
+							<p>If you have any questions or problems that aren't answered here, please feel free to create a new ticket on our <a href="<!-- $link_support -->">support site</a>.</p>
+
+							<p>We love to hear your feedback - if you find any bugs or have suggestions for improvements please get in touch. Nearly all of the time we follow your advice and issue a rapid update to <!-- $item_name_short -->.</p>
+
 							<div class="vl-alert vl-alert--warning"><p>If you like our work, please rate it. If you’re about to rate it with less than 5 stars, please let us know the reason first and we will do our best to improve the theme. Thanks so much!</p></div>
 
 
@@ -102,22 +117,16 @@
 							<p>Since WordPress is constantly being updated information about how to install WordPress may become out of date, so you always can read official guide <a href="http://codex.wordpress.org/Installing_WordPress" target="_blank">HERE</a></p>
 
 							<p>Below are all the useful links for WordPress information:</p>
-							
+
 							<ul>
 								<li>
 									<a target="_blank" href="http://codex.wordpress.org/Installing_WordPress">WordPress Codex</a> – general info about WordPress and how to install on your server.
-								</li>
-								<li>
-									<a target="_blank" href="http://vimeo.com/17147778">Instructional Video</a> – awesome How-To video created by Woo Themes.
 								</li>
 								<li>
 									<a target="_blank" href="http://codex.wordpress.org/First_Steps_With_WordPress">First Steps With WordPress</a> – general information that covers a wide variety of topics.
 								</li>
 								<li>
 									<a target="_blank" href="http://codex.wordpress.org/FAQ_New_To_WordPress">FAQ New To WordPress</a> – the most popular FAQ’s regarding WordPress.
-								</li>
-								<li>
-									<a target="_blank" href="http://wp.tutsplus.com/sessions/wp101-basix-training/">WP101 Basix Training videos</a> – some great videos from WPTuts on WordPress.
 								</li>
 							</ul>
 
@@ -130,7 +139,7 @@
 						<h2 class="vl-section--title">Theme Installation</h2>
 						<div class="vl-section--content">
 
-							<p>Once you've downloaded the installation file on ThemeForest, extract it and locate a file called <code>paragon.zip</code>. You can install the theme by using one of two installation methods:</p>
+							<p>Once you've downloaded the installation file on ThemeForest, extract it and locate a file called <code><!-- $item_zip --></code>. You can install the theme by using one of two installation methods:</p>
 
 							<h6>WordPress upload</h6>
 
@@ -142,7 +151,7 @@
 									Go to <strong>Admin panel > Appearance > Themes > Add New > Upload Theme</strong>.
 								</li>
 								<li>
-									Click on <strong>Choose File</strong> and select <code>paragon.zip</code>.
+									Click on <strong>Choose File</strong> and select <code><!-- $item_zip --></code>.
 								</li>
 								<li>
 									Click on <strong>Install Now</strong>.
@@ -162,7 +171,7 @@
 									Using FTP client, navigate to the <code>/wp-content/themes/</code> directory under your WordPress website's root directory.
 								</li>
 								<li>
-									Using FTP client, upload the <strong>Paragon</strong> directory to themes directory on remote server.
+									Using FTP client, upload the <strong><!-- $item_name_short --></strong> directory to themes directory on remote server.
 								</li>
 								<li>
 									Once uploaded, navigate to <strong>Dashboard > Appearance > Themes</strong> in the <strong>WordPress Dashboard</strong> and hit <strong>Activate</strong> below your newly uploaded theme.
@@ -170,11 +179,11 @@
 							</ol>
 
 							<div class="vl-alert vl-alert--info">
-								<p>When you use first or second method, please make sure that you're uploading the <code>paragon.zip</code> file, not entire package you downloaded. If you upload the wrong file you will get an error stating <strong>“Error: missing style.css stylesheet.”</strong></p>
+								<p>When you use first or second method, please make sure that you're uploading the <code><!-- $item_zip --></code> file, not entire package you downloaded. If you upload the wrong file you will get an error stating <strong>“Error: missing style.css stylesheet.”</strong></p>
 							</div>
 
 							<div class="vl-alert vl-alert--success">
-								<p>Once installation is complete, your <strong>Paragon</strong> theme will be ready to use. You should now see <strong>Paragon</strong> theme as active.</p>
+								<p>Once installation is complete, your <strong><!-- $item_name_short --></strong> theme will be ready to use. You should now see <strong><!-- $item_name_short --></strong> theme as active.</p>
 							</div>
 
 						</div>
@@ -187,7 +196,7 @@
 							<p>When you first install the theme you'll see a popup on your dashboard from the theme asking you to install a number of plugins.</p>
 
 							<p>Allow the theme to install these for you. The plugins which are installed are dependent of the theme, the images below are for illustrative purposes only. </p>
-							
+
 							<div class="vl-alert vl-alert--warning"><p>You can install all plugins at the same time by checking the box at the top of the this list.</p></div>
 
 						</div>
@@ -223,35 +232,9 @@
 					<!-- end .vl-section -->
 
 
-					<section class="vl-section" id="how-to-set-up-menus">
-						<h2 class="vl-section--title">How to Set Up Menus</h2>
+					<section class="vl-section" id="permalinks-structure">
+						<h2 class="vl-section--title">Permalinks Structure</h2>
 						<div class="vl-section--content">
-							<p>To create and activate your new menu follow the steps below:</p>
-							<ol class="toc">
-								<li>Log in to that site as an administrator.</li>
-								<li>Go to <strong>Appearance > Menus</strong> panel.</li>
-								<li>Give your menu a name and click <strong>Create Menu</strong> button.</li>
-								<li>Add few simple links form <strong>Links</strong> tab.</li>
-								<li>Save your menu.</li>
-								<li>Navigate to <strong>Manage Locations</strong> tab (at the top of the screen).</li>
-								<li>Choose your new menu as <strong>Main Navigation</strong>.</li>
-								<li>Save changes.</li>
-							</ol>
-
-						</div>
-					</section>
-					<!-- end .vl-section -->
-
-					<section class="vl-section" id="how-to-set-up-homepage">
-						<h2 class="vl-section--title">How to Set Up "Home Page"</h2>
-						<div class="vl-section--content">
-							<p>Ok, so far we have installed the theme, we have installed the plugins and imported the demo data, whats next? </p>
-
-							<p>The final step in getting your new theme setup and ready for you to edit as you wish is to setup your home page and menu. To begin, head to <strong>Settings > Reading</strong>, here you will need to set your <strong>Front Page</strong>.</p>
-
-							<img class="img" src="img/reading.jpg" alt="">
-
-							<div class="vl-alert vl-alert--info"><p>By default WP is set to show your latest posts, however to make your theme just like our demo you should select a static front page from the pages provided in the demo data.</p></div>
 
 							<p id="permalink">Finally, if you have not done so already, its highly advisable to update your permalink settings. To do this, head to <strong>Settings > Permalinks</strong> and select any option other than default. We recommended 'postname' - as you can see below.</p>
 
@@ -266,10 +249,10 @@
 						<div class="vl-section--content">
 							<p>You can update your theme by performing the following steps:</p>
 							<ol class="toc">
-								<li>Download the latest <strong>Paragon</strong> file from ThemeForest.</li>
-								<li>Extract it and locate <code>paragon.zip</code>.</li>
-								<li>Extract <code>paragon.zip</code> and locate the <strong>Paragon</strong> folder.</li>
-								<li>Replace content of the <strong>Paragon</strong> folder to the <code>/wp-content/themes/Paragon</code> folder of your web site.</li>
+								<li>Download the latest <strong><!-- $item_name_short --></strong> file from ThemeForest.</li>
+								<li>Extract it and locate <code><!-- $item_zip --></code>.</li>
+								<li>Extract <code><!-- $item_zip --></code> and locate the <strong><!-- $item_name_short --></strong> folder.</li>
+								<li>Replace content of the <strong><!-- $item_name_short --></strong> folder to the <code>/wp-content/themes/<!-- $item_foldername --></code> folder of your web site.</li>
 							</ol>
 							<div class="vl-alert vl-alert--info"><p>
 								Also you can use for update <strong>Envato Market</strong> plugin.</p>
@@ -299,7 +282,7 @@
 							<p>To change the primary color navigate to <strong>General Settings > Color Settings</strong></p>
 
 							<p>Here you can control the colors site.</p>
-							
+
 							<img class="img" src="img/change-color.jpg" alt="">
 
 						</div>
@@ -398,7 +381,7 @@
 							<div class="vl-alert vl-alert--info"><p>Child themes should always be used if you plan on modifying even a single character in your theme.</p>
 							</div>
 
-							<p>If you plan to edit the theme files, like style.css, I`m suggesting you to install both <code>paragon.zip</code> and <code>paragon-child.zip</code> themes, then activate the child theme. Child themes are great because allow you to edit the theme and also lets you update the original theme in the future, without loosing your edited files work.
+							<p>If you plan to edit the theme files, like style.css, I`m suggesting you to install both <code><!-- $item_zip --></code> and <code><!-- $item_foldername -->-child.zip</code> themes, then activate the child theme. Child themes are great because allow you to edit the theme and also lets you update the original theme in the future, without loosing your edited files work.
 							</p>
 
 							<div class="vl-alert vl-alert--info"><p>More about child themes and how to use them you can read here: <a href="http://codex.wordpress.org/Child_Themes">LINK</a>.</p>
@@ -413,7 +396,7 @@
 						<h2 class="vl-section--title">Translation Theme</h2>
 						<div class="vl-section--content">
 
-							<div class="vl-alert vl-alert--info"><p>You can find .POT file in next folder <code>wp-content/themes/paragon/languages/</code></p></div>
+							<div class="vl-alert vl-alert--info"><p>You can find .POT file in next folder <code>wp-content/themes/<!-- $item_foldername -->/languages/</code></p></div>
 
 							<ol class="toc">
 								<li>Install Loco Translate Plugin <strong><a href="#">LINK</a></strong></li>
@@ -428,18 +411,18 @@
 
 
 					<section class="vl-section">
-						
+
 						<h4>Don`t forget to rate it <img src="img/template/rate.png" alt="" class="rate"> <img src="img/template/rate.png" alt="" class="rate"> <img src="img/template/rate.png" alt="" class="rate"> <img src="img/template/rate.png" alt="" class="rate"> <img src="img/template/rate.png" alt="" class="rate"></h4>
 
 						<p></p>
 
-						<a target="_blank" href="https://www.instagram.com/vlthemes/" class="vl-btn vl-btn--instagram"><img src="img/template/instagram-symbol.png" alt="">Follow Us</a>
+						<a target="_blank" href="<!-- $link_instagram -->" class="vl-btn vl-btn--instagram"><img src="img/template/instagram-symbol.png" alt="">Follow Us</a>
 
-						<a target="_blank" href="https://twitter.com/vlthemes" class="vl-btn vl-btn--twitter"><img src="img/template/twitter.png" alt="">Follow Us</a>
+						<a target="_blank" href="<!-- $link_twitter -->" class="vl-btn vl-btn--twitter"><img src="img/template/twitter.png" alt="">Follow Us</a>
 
-						<a target="_blank" href="http://eepurl.com/cAIc41" class="vl-btn vl-btn--subscribe"><img src="img/template/e-mail-envelope.png" alt="">Subscribe Us</a>
+						<a target="_blank" href="<!-- $link_subscribe -->" class="vl-btn vl-btn--subscribe"><img src="img/template/e-mail-envelope.png" alt="">Subscribe Us</a>
 
-						<a target="_blank" href="http://vlthemes.ticksy.com" class="vl-btn"><img src="img/template/help.png" alt="">Get Help</a>
+						<a target="_blank" href="<!-- $link_support -->" class="vl-btn"><img src="img/template/help.png" alt="">Get Help</a>
 
 					</section>
 

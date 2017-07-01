@@ -1,7 +1,7 @@
 /*------------------------------------------------------------------
 [Master Stylesheet]
 
-Project: VLThemes Documentation
+Project: DF Documentation
 Version: 1.0
 
 -------------------------------------------------------------------*/
@@ -9,7 +9,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 15px;
-  color: #525252;
+  color: #383838;
   line-height: 1.5rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-weight: 400;
@@ -21,7 +21,7 @@ h4,
 h5,
 h6 {
   font-weight: 600;
-  color: #525252;
+  color: #383838;
   margin: 15px 0;
 }
 h1 {
@@ -75,7 +75,7 @@ code {
   border-radius: 4px;
   font-size: 90%;
   color: #fff;
-  background-color: #525252;
+  background-color: #383838;
 }
 pre {
   margin: 15px 0;
@@ -129,7 +129,7 @@ pre {
 }
 .vl-alert a,
 .vl-alert a:hover {
-  color: #525252;
+  color: #383838;
   font-weight: 600;
 }
 .vl-alert--success {
@@ -165,7 +165,7 @@ pre {
   margin: 0 0 4px 0;
   background-color: #83b46d;
   text-decoration: none;
-  box-shadow: inset 0 -2px 0 rgba(82,82,82,0.1);
+  box-shadow: inset 0 -2px 0 rgba(56,56,56,0.1);
   color: #fff;
 }
 .vl-btn img {
@@ -200,6 +200,7 @@ pre {
   max-height: 38px;
   margin-right: 10px;
   vertical-align: top;
+  width: 40px;
 }
 .vl-header .vl-header--title {
   color: #83b46d;
@@ -208,7 +209,7 @@ pre {
   line-height: 38px;
 }
 .vl-header .vl-header--title strong {
-  color: #525252;
+  color: #383838;
 }
 .vl-header .vl-header--subtitle {
   margin: 20px 0 0;
@@ -237,7 +238,7 @@ pre {
   display: block;
   padding: 5px 15px;
   border-left: 4px solid transparent;
-  color: #525252;
+  color: #383838;
   text-decoration: none;
 }
 .vl-site-nav li a:hover {
@@ -264,7 +265,7 @@ ul.sub-menu li.active > a {
 .vl-footer {
   padding: 20px 0;
   text-align: center;
-  background-color: #4a4a4a;
+  background-color: #323232;
   color: #a7a7a7;
 }
 .vl-footer p {
