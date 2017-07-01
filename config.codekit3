@@ -285,19 +285,6 @@
 		"oF": 2,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/src\/css\/style.styl": {
-		"aP": 0,
-		"bl": 0,
-		"dS": 0,
-		"ft": 8,
-		"iC": 0,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/build\/src\/css\/style.css",
-		"oF": 0,
-		"oS": 0,
-		"rrU": 0
 		}
 	},
 "hooks": [
@@ -309,7 +296,7 @@
 	"displayValue": "VLThemes-Documentation",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-confusedBaby",
-	"lastBuiltDate": 520549859
+	"lastBuiltDate": 520597617
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
